@@ -6,17 +6,17 @@ import behaviours.ISell;
 public abstract class StockItems implements ISell {
 
     private int priceBought;
-    private String catagory;
+    private String category;
     private int sellingPrice;
 
-    public StockItems(String catagory, int priceBought, int sellingPrice){
-        this.catagory = catagory;
+    public StockItems(String category, int priceBought, int sellingPrice){
+        this.category = category;
         this.priceBought = priceBought;
         this.sellingPrice = sellingPrice;
     }
 
-    public String getCatagory() {
-        return this.catagory;
+    public String getCategory() {
+        return this.category;
     }
 
     public int getPriceBought() {

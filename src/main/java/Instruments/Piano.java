@@ -13,7 +13,7 @@ public class Piano extends Instrument {
         return "Clannnnng!";
     }
 
-    public int calcualteMarkup() {
+    public int calculateMarkup() {
         return  this.getSellingPrice() - this.getPriceBought();
     }
 

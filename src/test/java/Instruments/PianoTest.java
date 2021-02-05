@@ -31,7 +31,7 @@ public class PianoTest {
 
     @Test
     public void getCatagory() {
-        assertEquals("Keys", piano.getCatagory());
+        assertEquals("Keys", piano.getCategory());
     }
 
     @Test
@@ -51,7 +51,7 @@ public class PianoTest {
 
     @Test
     public void calcualteMarkup(){
-        assertEquals(400, piano.calcualteMarkup());
+        assertEquals(400, piano.calculateMarkup());
     }
 
     @Test

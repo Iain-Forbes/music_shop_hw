@@ -1,5 +1,3 @@
-import Instruments.Guitar;
-import Stock.StockItems;
 import behaviours.ISell;
 import java.util.ArrayList;
 
@@ -39,7 +37,7 @@ public class Shop {
     public int sellStock(){
         int total = 0;
         for(ISell stock : stocks){
-            total += stock.calcualteMarkup();
+            total += stock.calculateMarkup();
 
 
         };

@@ -21,15 +21,8 @@ public class Guitar extends Instrument {
         return "dee-Tzzzzuuuhhh";
     }
 
-    public int calcualteMarkup() {
+    public int calculateMarkup() {
         return  this.getSellingPrice() - this.getPriceBought();
     }
 
-    public String addStock(String stock) {
-       return "Guitar has been added to " + stock;
-    }
-
-    public StockItems addStock(StockItems Stock) {
-        return null;
-    }
 }
